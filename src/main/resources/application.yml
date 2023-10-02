@@ -1,0 +1,24 @@
+server:
+  port: 20410
+
+spring:
+  application.name: newsfeeds-service
+
+angularpay:
+  cryptoUrl: http://localhost:20340/crypto
+  pmtUrl: http://localhost:20350/pmt
+  smartsaveUrl: http://localhost:20360/smart-save
+  paynableUrl: http://localhost:20370/paynable
+  peerfundUrl: http://localhost:20380/peer-fund
+  pitchUrl: http://localhost:20390/pitch
+  supplyUrl: http://localhost:20450/supply
+  menialUrl: http://localhost:20460/menial
+  stockUrl: http://localhost:20510/stock
+  invoiceUrl: http://localhost:20530/invoice
+  assetsUrl: http://localhost:20560/assets
+  pageSize: 50
+  codecSizeInMB: 50
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 10000
